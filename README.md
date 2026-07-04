@@ -1,6 +1,7 @@
 # 👋 Hi, I'm Srihari Mohan
 
-Data Scientist and Analytics Engineer with a robust 5-year academic foundation in data science and analytics. I specialize in building end-to-end predictive pipelines, optimizing relational database architectures, and engineering clean, modular software solutions.
+Data Science Master's student specializing in analytics engineering, relational database design, and predictive modeling frameworks. Proven capability in engineering automated pipelines to ingest complex event data logs, structuring optimized schemas, and deploying machine learning matrices to translate raw metrics into actionable performance projections. Passionate about leveraging data to optimize strategic asset allocation, predictive modeling, and data-driven decision-making.
+
 
 📍 Based in Hatfield, UK (Open to relocation)
 💼 Actively seeking Data Analyst, Data Scientist, and Analytics Engineer roles.
