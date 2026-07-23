@@ -1,33 +1,30 @@
-# 👋 Hi, I'm Srihari Mohan
+👋 Hi, I'm Srihari Mohan
 
-Data Science Master's student specializing in analytics engineering, relational database design, and predictive modeling frameworks. Proven capability in engineering automated pipelines to ingest complex event data logs, structuring optimized schemas, and deploying machine learning matrices to translate raw metrics into actionable performance projections. Passionate about leveraging data to optimize strategic asset allocation, predictive modeling, and data-driven decision-making.
+Data Science Master's student focused on the less glamorous end of data science: clean pipelines, well-structured databases, and models that hold up outside the training set. I like taking messy raw data and turning it into something a database or a model can actually use.
+📍 Based in Hatfield, UK (open to relocation) 💼 Actively looking for Graduate/Junior Data Analyst, Data Scientist, and Analytics Engineer roles 🔗 Connect with me on LinkedIn
 
-📍 Based in Hatfield, UK (Open to relocation)
-💼 Actively seeking Data Analyst, Data Scientist, and Analytics Engineer roles.
-🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/sriharimohan)
+🛠️ Technical Stack
+Languages & Frameworks: Python (Pandas, NumPy, scikit-learn), SQL, SAS
+Data Architecture: Relational star-schema design, ETL pipelines, SQLite, cross-platform path handling (os)
+Advanced Querying: SQL window functions (OVER, PARTITION BY, LAG), rolling/moving aggregations
+Machine Learning: Regression, clustering (K-means), cross-validation, grid search, model evaluation (R², silhouette score, ROC-AUC)
+Visualization: Matplotlib, Seaborn, Streamlit
+Tools: Git, GitHub
 
----
+🚀 Featured Projects
+📊 AIVU: Football Analytics Engine
+A Streamlit app that tracks players' match-by-match form and projects next-gameweek performance.
+Built an automated Python ETL pipeline that cleans raw match-log files and loads them into a relational star-schema SQLite database.
+Used SQL window functions (PARTITION BY, LAG) to engineer rolling 3-week form features (xG, xA) as the model's core inputs.
+Trained and grid-searched the prediction model with cross-validation to keep it honest against overfitting.
+In progress: extending the data layer to pull live match data from StatsBomb's open data, aiming for a real-time analytics dashboard.
 
-### 🛠️ Technical Stack & Frameworks
+📈 Premier League Match Prediction using ML Models
+Comparing graph-based (spectral) clustering and K-means clustering on Premier League player data to group players by playing style and performance level.
+Preprocessed the dataset (missing-value handling, feature selection, PCA for dimensionality reduction).
+Used the elbow method to select K=3 clusters, then compared cluster quality between the two methods via silhouette score.
 
-- **Languages & Frameworks:** Python (Pandas, NumPy), SQL, SAS
-- **Data Architecture:** Relational Star Schema Design, ETL Pipelines, SQLite, Path Portability (`os`)
-- **Advanced Querying:** SQL Window Functions (`OVER`, `PARTITION BY`, `LAG`, Moving Aggregations)
-- **Machine Learning & Ops:** Scikit-Learn (Validation Matrices), Git, GitHub
+🎬 Movie Revenue: Clustering & Regression
+A linear regression model predicting box-office revenue from critic and audience metrics (metascore, vote count, user score), reaching an R² of 0.85, paired with K-means clustering to group movies by financial and reception metrics.
 
----
-
-### 🚀 Featured Technical Portfolios
-
-#### 📊 [AIVU: Predictive Analytics Engine & Decision Support System](https://github.com/sriharimohan/AIVU)
-An open-source analytics platform and predictive modeling engine built to ingest granular performance metrics, isolate form trends, and project future asset outcomes.
-- **Data Engineering:** Built an automated ETL pipeline transforming raw files into a clean relational Star Schema inside an SQLite database, isolating categorical asset dimensions from sequential performance logs.
-- **Advanced Querying:** Generated a rolling momentum matrix using SQL Window Functions (`PARTITION BY`, `LAG`) and 3-week moving aggregation windows to capture true time-series form trends.
-- **Machine Learning Optimization:** Trained and tuned ensemble architectures via grid search parameters to process scale-invariant relative differentials, eliminating overfitting via strict cross-validation.
-- **Analytical Output:** Leveraged regression coefficients and explainable feature weights to isolate key performance drivers, mathematically proving underlying efficiency as the primary driver of success over stochastic noise.
-- **Software Hygiene:** Prevented directory tracking drift and cross-platform runtime crashes by implementing dynamic environment path mapping via Python’s native `os` library.
-
-#### 📈 [Global Commodity Price Analysis: Time Series Case Study](https://github.com/sriharimohan/Premier-League-Match-Prediction-using-ML-Models)
-Academic portfolio project executing advanced statistical time series modeling on historical data streams to analyze structural patterns.
-- **Forecasting Models:** Developed statistical time series models on historical oil price data streams to analyze structural patterns and price volatility vectors.
-- **Data Processing:** Executed preprocessing pipelines and stationary transformations to output verified diagnostic metrics evaluating market trends.
+More projects, including a semantic image segmentation model (U-Net + EfficientNet-b0) and time-series analysis of airline passenger data, are pinned below.
