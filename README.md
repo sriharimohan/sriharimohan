@@ -1,30 +1,48 @@
-👋 Hi, I'm Srihari Mohan
+# Hi, I'm Srihari Mohan 👋
 
-Data Science Master's student focused on the less glamorous end of data science: clean pipelines, well-structured databases, and models that hold up outside the training set. I like taking messy raw data and turning it into something a database or a model can actually use.
-📍 Based in Hatfield, UK (open to relocation) 💼 Actively looking for Graduate/Junior Data Analyst, Data Scientist, and Analytics Engineer roles 🔗 Connect with me on LinkedIn
+**Junior Business Analyst | MSc Data Science Graduate | Ex-SAS**  
+📍 Based in Hatfield / Greater London Area, UK  
 
-🛠️ Technical Stack
-Languages & Frameworks: Python (Pandas, NumPy, scikit-learn), SQL, SAS
-Data Architecture: Relational star-schema design, ETL pipelines, SQLite, cross-platform path handling (os)
-Advanced Querying: SQL window functions (OVER, PARTITION BY, LAG), rolling/moving aggregations
-Machine Learning: Regression, clustering (K-means), cross-validation, grid search, model evaluation (R², silhouette score, ROC-AUC)
-Visualization: Matplotlib, Seaborn, Streamlit
-Tools: Git, GitHub
+---
 
-🚀 Featured Projects
-📊 AIVU: Football Analytics Engine
-A Streamlit app that tracks players' match-by-match form and projects next-gameweek performance.
-Built an automated Python ETL pipeline that cleans raw match-log files and loads them into a relational star-schema SQLite database.
-Used SQL window functions (PARTITION BY, LAG) to engineer rolling 3-week form features (xG, xA) as the model's core inputs.
-Trained and grid-searched the prediction model with cross-validation to keep it honest against overfitting.
-In progress: extending the data layer to pull live match data from StatsBomb's open data, aiming for a real-time analytics dashboard.
+### 🚀 About Me
 
-📈 Premier League Match Prediction using ML Models
-Comparing graph-based (spectral) clustering and K-means clustering on Premier League player data to group players by playing style and performance level.
-Preprocessed the dataset (missing-value handling, feature selection, PCA for dimensionality reduction).
-Used the elbow method to select K=3 clusters, then compared cluster quality between the two methods via silhouette score.
+I am a client-facing Junior Business Analyst with an MSc in Data Science (Advanced Research) from the University of Hertfordshire and practical experience auditing operational datasets at SAS. 
 
-🎬 Movie Revenue: Clustering & Regression
-A linear regression model predicting box-office revenue from critic and audience metrics (metascore, vote count, user score), reaching an R² of 0.85, paired with K-means clustering to group movies by financial and reception metrics.
+I specialize in bridging the gap between commercial strategy and technical execution—helping business teams define project requirements, check underlying data using SQL and Excel, and present actionable reporting solutions.
 
-More projects, including a semantic image segmentation model (U-Net + EfficientNet-b0) and time-series analysis of airline passenger data, are pinned below.
+- 📊 **What I Do Best:** Requirements Gathering, Workflow Mapping, Data Validation (SQL/Excel), and Executive Reporting (Power BI).
+- 🎓 **Education:** Master of Science in Data Science (Advanced Research) @ University of Hertfordshire (2024 - 2026).
+- 💼 **Experience:** Data Analytics Intern @ SAS | Audited & verified 220,000+ operational records.
+- 🎯 **Looking For:** Junior Business Analyst, Implementation Analyst, and Digital Consulting roles in Greater London Area.
+
+---
+
+### 🛠️ Core Competencies & Tools
+
+- **Business Analysis:** Requirements Gathering, Step-by-Step Workflow Mapping, User Acceptance Testing (UAT) Support, Technical Documentation
+- **Data & Systems:** Relational SQL (Queries, Joins, Aggregations), MS Excel (Pivot Tables, XLOOKUP, Summaries), Power BI (Dashboards)
+- **Stakeholder Skills:** Technical Translation, Process Diagnostics, Cross-Functional Alignment
+
+---
+
+### 📌 Featured Projects & Code Artifacts
+
+#### 1. [Predictive Analytics & Performance Modeling](https://github.com/sriharimohan/Premier-League-Match-Prediction-using-ML-Models)
+*MSc Dissertation — University of Hertfordshire*
+- Cleaned and structured 12,000+ historical records, handling missing values and feature formatting.
+- Evaluated linear and tree-based statistical models to identify key operational drivers.
+- Translated feature importance metrics (SHAP values) into clear, non-technical visual summaries.
+
+#### 2. Time Series & Market Analytics
+*University Coursework Project*
+- Processed multi-year financial market data, resolving weekend gaps via forward-filling logic.
+- Evaluated statistical forecasting models (ARIMA vs. Prophet) to analyze trend volatility and short-term performance.
+
+---
+
+### 📬 Connect With Me
+
+- **LinkedIn:** [linkedin.com/in/sriharimohan](https://linkedin.com/in/sriharimohan)
+- **Email:** sriharimohanm@gmail.com
+- **Location:** Hatfield, Hertfordshire.
