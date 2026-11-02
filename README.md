@@ -26,21 +26,6 @@ I specialize in bridging the gap between commercial strategy and technical execu
 
 ---
 
-### 📌 Featured Projects & Code Artifacts
-
-#### 1. [Predictive Analytics & Performance Modeling](https://github.com/sriharimohan/Premier-League-Match-Prediction-using-ML-Models)
-*MSc Dissertation — University of Hertfordshire*
-- Cleaned and structured 12,000+ historical records, handling missing values and feature formatting.
-- Evaluated linear and tree-based statistical models to identify key operational drivers.
-- Translated feature importance metrics (SHAP values) into clear, non-technical visual summaries.
-
-#### 2. Time Series & Market Analytics
-*University Coursework Project*
-- Processed multi-year financial market data, resolving weekend gaps via forward-filling logic.
-- Evaluated statistical forecasting models (ARIMA vs. Prophet) to analyze trend volatility and short-term performance.
-
----
-
 ### 📬 Connect With Me
 
 - **LinkedIn:** [linkedin.com/in/sriharimohan](https://linkedin.com/in/sriharimohan)
